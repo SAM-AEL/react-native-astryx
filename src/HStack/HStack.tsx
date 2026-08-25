@@ -1,12 +1,13 @@
+import { css } from 'react-strict-dom';
 import type { BaseProps } from '../BaseProps';
 import { useOptionalTheme, useTokens } from '../theme';
 import { getComponentOverride } from '../utils/componentOverrides';
-import {
-  stackBaseStyles,
-  stackLayoutStyle,
-  type StackProps,
-} from '../Stack/stackShared';
+import { stackLayoutStyle, type StackProps } from '../Stack/stackShared';
 import { View } from '../internal/elements';
+
+const styles = css.create({
+  base: { display: 'flex' },
+});
 
 export type HStackProps = StackProps & BaseProps;
 
@@ -18,7 +19,7 @@ export function HStack({ children, xstyle, testID, ...layout }: HStackProps) {
   return (
     <View
       style={[
-        stackBaseStyles.base,
+        styles.base,
         { flexDirection: 'row' },
         stackLayoutStyle(tokens, layout),
         getComponentOverride(theme, 'hstack'),

@@ -27,6 +27,8 @@ export interface NativeEventLike {
 interface BaseElementProps {
   children?: ReactNode;
   style?: StyleProp;
+  /** Alias kept for parity with Astryx component props. */
+  xstyle?: StyleProp;
   testID?: string;
   accessibilityLabel?: string;
   accessibilityState?: {
@@ -42,6 +44,8 @@ export interface ViewProps extends BaseElementProps {
   onLayout?: (event: NativeEventLike) => void;
   onTouchStart?: (event: NativeEventLike) => void;
   onTouchMove?: (event: NativeEventLike) => void;
+  onTouchEnd?: (event: NativeEventLike) => void;
+  onTouchCancel?: (event: NativeEventLike) => void;
   pointerEvents?: 'auto' | 'none' | 'box-none' | 'box-only';
 }
 

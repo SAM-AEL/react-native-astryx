@@ -1,4 +1,3 @@
-import { css } from 'react-strict-dom';
 import type { BaseProps } from '../BaseProps';
 import type { TokenMap } from '../theme';
 
@@ -39,10 +38,6 @@ export interface StackProps extends BaseProps {
   grow?: boolean;
 }
 
-const styles = css.create({
-  base: { display: 'flex' },
-});
-
 const ALIGN_MAP = {
   start: 'flex-start',
   center: 'center',
@@ -79,5 +74,3 @@ export function stackLayoutStyle(
     flexGrow: grow === true ? 1 : undefined,
   };
 }
-
-export { styles as stackBaseStyles };

@@ -65,9 +65,13 @@ function extractLocalSurface(root) {
   const srcDir = path.join(root, 'src');
   for (const entry of fs.readdirSync(srcDir, {withFileTypes: true})) {
     if (!entry.isDirectory()) continue;
-    const idx = path.join(srcDir, entry.name, 'index.ts');
-    if (!fs.existsSync(idx)) continue;
-    const text = fs.readFileSync(idx, 'utf8');
+    const candidates = [
+      path.join(srcDir, entry.name, 'index.ts'),
+      path.join(srcDir, entry.name, 'index.tsx'),
+    ];
+    const file = candidates.find((f) => fs.existsSync(f));
+    if (file == null) continue;
+    const text = fs.readFileSync(file, 'utf8');
     const names = [...text.matchAll(/export\s+(?:type|interface|const|function|class)\s+([A-Za-z0-9_]+)/g)]
       .map((m) => m[1]);
     surface.set(entry.name, names.sort());

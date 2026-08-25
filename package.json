@@ -10,12 +10,17 @@
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
-    "./theme": {
-      "react-native-astryx-source": "./src/theme/index.ts",
-      "types": "./lib/typescript/src/theme/index.d.ts",
-      "default": "./lib/module/theme/index.js"
-    },
     "./package.json": "./package.json",
+    "./AlertDialog": {
+      "react-native-astryx-source": "./src/AlertDialog/index.ts",
+      "types": "./lib/typescript/src/AlertDialog/index.d.ts",
+      "default": "./lib/module/AlertDialog/index.js"
+    },
+    "./AppShell": {
+      "react-native-astryx-source": "./src/AppShell/index.ts",
+      "types": "./lib/typescript/src/AppShell/index.d.ts",
+      "default": "./lib/module/AppShell/index.js"
+    },
     "./AspectRatio": {
       "react-native-astryx-source": "./src/AspectRatio/index.ts",
       "types": "./lib/typescript/src/AspectRatio/index.d.ts",
@@ -40,6 +45,11 @@
       "react-native-astryx-source": "./src/Banner/index.ts",
       "types": "./lib/typescript/src/Banner/index.d.ts",
       "default": "./lib/module/Banner/index.js"
+    },
+    "./Blockquote": {
+      "react-native-astryx-source": "./src/Blockquote/index.ts",
+      "types": "./lib/typescript/src/Blockquote/index.d.ts",
+      "default": "./lib/module/Blockquote/index.js"
     },
     "./BottomSheet": {
       "react-native-astryx-source": "./src/BottomSheet/index.ts",
@@ -71,25 +81,85 @@
       "types": "./lib/typescript/src/Card/index.d.ts",
       "default": "./lib/module/Card/index.js"
     },
+    "./Carousel": {
+      "react-native-astryx-source": "./src/Carousel/index.ts",
+      "types": "./lib/typescript/src/Carousel/index.d.ts",
+      "default": "./lib/module/Carousel/index.js"
+    },
     "./Center": {
       "react-native-astryx-source": "./src/Center/index.ts",
       "types": "./lib/typescript/src/Center/index.d.ts",
       "default": "./lib/module/Center/index.js"
+    },
+    "./Chat": {
+      "react-native-astryx-source": "./src/Chat/index.ts",
+      "types": "./lib/typescript/src/Chat/index.d.ts",
+      "default": "./lib/module/Chat/index.js"
     },
     "./CheckboxInput": {
       "react-native-astryx-source": "./src/CheckboxInput/index.ts",
       "types": "./lib/typescript/src/CheckboxInput/index.d.ts",
       "default": "./lib/module/CheckboxInput/index.js"
     },
+    "./CheckboxList": {
+      "react-native-astryx-source": "./src/CheckboxList/index.ts",
+      "types": "./lib/typescript/src/CheckboxList/index.d.ts",
+      "default": "./lib/module/CheckboxList/index.js"
+    },
+    "./Citation": {
+      "react-native-astryx-source": "./src/Citation/index.ts",
+      "types": "./lib/typescript/src/Citation/index.d.ts",
+      "default": "./lib/module/Citation/index.js"
+    },
     "./ClickableCard": {
       "react-native-astryx-source": "./src/ClickableCard/index.ts",
       "types": "./lib/typescript/src/ClickableCard/index.d.ts",
       "default": "./lib/module/ClickableCard/index.js"
     },
+    "./Code": {
+      "react-native-astryx-source": "./src/Code/index.ts",
+      "types": "./lib/typescript/src/Code/index.d.ts",
+      "default": "./lib/module/Code/index.js"
+    },
+    "./CodeBlock": {
+      "react-native-astryx-source": "./src/CodeBlock/index.ts",
+      "types": "./lib/typescript/src/CodeBlock/index.d.ts",
+      "default": "./lib/module/CodeBlock/index.js"
+    },
+    "./Collapsible": {
+      "react-native-astryx-source": "./src/Collapsible/index.ts",
+      "types": "./lib/typescript/src/Collapsible/index.d.ts",
+      "default": "./lib/module/Collapsible/index.js"
+    },
+    "./CommandPalette": {
+      "react-native-astryx-source": "./src/CommandPalette/index.ts",
+      "types": "./lib/typescript/src/CommandPalette/index.d.ts",
+      "default": "./lib/module/CommandPalette/index.js"
+    },
+    "./ComplexSelector": {
+      "react-native-astryx-source": "./src/ComplexSelector/index.ts",
+      "types": "./lib/typescript/src/ComplexSelector/index.d.ts",
+      "default": "./lib/module/ComplexSelector/index.js"
+    },
+    "./ContextMenu": {
+      "react-native-astryx-source": "./src/ContextMenu/index.ts",
+      "types": "./lib/typescript/src/ContextMenu/index.d.ts",
+      "default": "./lib/module/ContextMenu/index.js"
+    },
     "./DateInput": {
       "react-native-astryx-source": "./src/DateInput/index.ts",
       "types": "./lib/typescript/src/DateInput/index.d.ts",
       "default": "./lib/module/DateInput/index.js"
+    },
+    "./DateRangeInput": {
+      "react-native-astryx-source": "./src/DateRangeInput/index.ts",
+      "types": "./lib/typescript/src/DateRangeInput/index.d.ts",
+      "default": "./lib/module/DateRangeInput/index.js"
+    },
+    "./DateTimeInput": {
+      "react-native-astryx-source": "./src/DateTimeInput/index.ts",
+      "types": "./lib/typescript/src/DateTimeInput/index.d.ts",
+      "default": "./lib/module/DateTimeInput/index.js"
     },
     "./Dialog": {
       "react-native-astryx-source": "./src/Dialog/index.ts",
@@ -101,6 +171,11 @@
       "types": "./lib/typescript/src/Divider/index.d.ts",
       "default": "./lib/module/Divider/index.js"
     },
+    "./DropdownMenu": {
+      "react-native-astryx-source": "./src/DropdownMenu/index.ts",
+      "types": "./lib/typescript/src/DropdownMenu/index.d.ts",
+      "default": "./lib/module/DropdownMenu/index.js"
+    },
     "./EmptyState": {
       "react-native-astryx-source": "./src/EmptyState/index.ts",
       "types": "./lib/typescript/src/EmptyState/index.d.ts",
@@ -110,6 +185,26 @@
       "react-native-astryx-source": "./src/Field/index.ts",
       "types": "./lib/typescript/src/Field/index.d.ts",
       "default": "./lib/module/Field/index.js"
+    },
+    "./FieldStatus": {
+      "react-native-astryx-source": "./src/FieldStatus/index.ts",
+      "types": "./lib/typescript/src/FieldStatus/index.d.ts",
+      "default": "./lib/module/FieldStatus/index.js"
+    },
+    "./FileInput": {
+      "react-native-astryx-source": "./src/FileInput/index.ts",
+      "types": "./lib/typescript/src/FileInput/index.d.ts",
+      "default": "./lib/module/FileInput/index.js"
+    },
+    "./FormLayout": {
+      "react-native-astryx-source": "./src/FormLayout/index.ts",
+      "types": "./lib/typescript/src/FormLayout/index.d.ts",
+      "default": "./lib/module/FormLayout/index.js"
+    },
+    "./Grid": {
+      "react-native-astryx-source": "./src/Grid/index.ts",
+      "types": "./lib/typescript/src/Grid/index.d.ts",
+      "default": "./lib/module/Grid/index.js"
     },
     "./HStack": {
       "react-native-astryx-source": "./src/HStack/index.ts",
@@ -121,6 +216,11 @@
       "types": "./lib/typescript/src/Heading/index.d.ts",
       "default": "./lib/module/Heading/index.js"
     },
+    "./HoverCard": {
+      "react-native-astryx-source": "./src/HoverCard/index.ts",
+      "types": "./lib/typescript/src/HoverCard/index.d.ts",
+      "default": "./lib/module/HoverCard/index.js"
+    },
     "./Icon": {
       "react-native-astryx-source": "./src/Icon/index.ts",
       "types": "./lib/typescript/src/Icon/index.d.ts",
@@ -131,25 +231,125 @@
       "types": "./lib/typescript/src/IconButton/index.d.ts",
       "default": "./lib/module/IconButton/index.js"
     },
+    "./Indicator": {
+      "react-native-astryx-source": "./src/Indicator/index.ts",
+      "types": "./lib/typescript/src/Indicator/index.d.ts",
+      "default": "./lib/module/Indicator/index.js"
+    },
+    "./InputGroup": {
+      "react-native-astryx-source": "./src/InputGroup/index.ts",
+      "types": "./lib/typescript/src/InputGroup/index.d.ts",
+      "default": "./lib/module/InputGroup/index.js"
+    },
+    "./InteractiveRoleContext": {
+      "react-native-astryx-source": "./src/InteractiveRoleContext/index.ts",
+      "types": "./lib/typescript/src/InteractiveRoleContext/index.d.ts",
+      "default": "./lib/module/InteractiveRoleContext/index.js"
+    },
+    "./Item": {
+      "react-native-astryx-source": "./src/Item/index.ts",
+      "types": "./lib/typescript/src/Item/index.d.ts",
+      "default": "./lib/module/Item/index.js"
+    },
     "./Kbd": {
       "react-native-astryx-source": "./src/Kbd/index.ts",
       "types": "./lib/typescript/src/Kbd/index.d.ts",
       "default": "./lib/module/Kbd/index.js"
+    },
+    "./Layer": {
+      "react-native-astryx-source": "./src/Layer/index.ts",
+      "types": "./lib/typescript/src/Layer/index.d.ts",
+      "default": "./lib/module/Layer/index.js"
+    },
+    "./Layout": {
+      "react-native-astryx-source": "./src/Layout/index.ts",
+      "types": "./lib/typescript/src/Layout/index.d.ts",
+      "default": "./lib/module/Layout/index.js"
+    },
+    "./Lightbox": {
+      "react-native-astryx-source": "./src/Lightbox/index.ts",
+      "types": "./lib/typescript/src/Lightbox/index.d.ts",
+      "default": "./lib/module/Lightbox/index.js"
+    },
+    "./Link": {
+      "react-native-astryx-source": "./src/Link/index.ts",
+      "types": "./lib/typescript/src/Link/index.d.ts",
+      "default": "./lib/module/Link/index.js"
     },
     "./List": {
       "react-native-astryx-source": "./src/List/index.ts",
       "types": "./lib/typescript/src/List/index.d.ts",
       "default": "./lib/module/List/index.js"
     },
+    "./Markdown": {
+      "react-native-astryx-source": "./src/Markdown/index.ts",
+      "types": "./lib/typescript/src/Markdown/index.d.ts",
+      "default": "./lib/module/Markdown/index.js"
+    },
+    "./MetadataList": {
+      "react-native-astryx-source": "./src/MetadataList/index.ts",
+      "types": "./lib/typescript/src/MetadataList/index.d.ts",
+      "default": "./lib/module/MetadataList/index.js"
+    },
+    "./MobileNav": {
+      "react-native-astryx-source": "./src/MobileNav/index.ts",
+      "types": "./lib/typescript/src/MobileNav/index.d.ts",
+      "default": "./lib/module/MobileNav/index.js"
+    },
+    "./MoreMenu": {
+      "react-native-astryx-source": "./src/MoreMenu/index.ts",
+      "types": "./lib/typescript/src/MoreMenu/index.d.ts",
+      "default": "./lib/module/MoreMenu/index.js"
+    },
+    "./MultiSelector": {
+      "react-native-astryx-source": "./src/MultiSelector/index.ts",
+      "types": "./lib/typescript/src/MultiSelector/index.d.ts",
+      "default": "./lib/module/MultiSelector/index.js"
+    },
+    "./NavIcon": {
+      "react-native-astryx-source": "./src/NavIcon/index.ts",
+      "types": "./lib/typescript/src/NavIcon/index.d.ts",
+      "default": "./lib/module/NavIcon/index.js"
+    },
+    "./NavMenu": {
+      "react-native-astryx-source": "./src/NavMenu/index.ts",
+      "types": "./lib/typescript/src/NavMenu/index.d.ts",
+      "default": "./lib/module/NavMenu/index.js"
+    },
     "./NumberInput": {
       "react-native-astryx-source": "./src/NumberInput/index.ts",
       "types": "./lib/typescript/src/NumberInput/index.d.ts",
       "default": "./lib/module/NumberInput/index.js"
     },
+    "./Outline": {
+      "react-native-astryx-source": "./src/Outline/index.ts",
+      "types": "./lib/typescript/src/Outline/index.d.ts",
+      "default": "./lib/module/Outline/index.js"
+    },
+    "./OverflowList": {
+      "react-native-astryx-source": "./src/OverflowList/index.ts",
+      "types": "./lib/typescript/src/OverflowList/index.d.ts",
+      "default": "./lib/module/OverflowList/index.js"
+    },
+    "./Overlay": {
+      "react-native-astryx-source": "./src/Overlay/index.ts",
+      "types": "./lib/typescript/src/Overlay/index.d.ts",
+      "default": "./lib/module/Overlay/index.js"
+    },
     "./Pagination": {
       "react-native-astryx-source": "./src/Pagination/index.ts",
       "types": "./lib/typescript/src/Pagination/index.d.ts",
       "default": "./lib/module/Pagination/index.js"
+    },
+    "./Popover": {
+      "react-native-astryx-source": "./src/Popover/index.ts",
+      "types": "./lib/typescript/src/Popover/index.d.ts",
+      "default": "./lib/module/Popover/index.js"
+    },
+    "./PowerSearch": {
+      "react-native-astryx-source": "./src/PowerSearch/index.ts",
+      "types": "./lib/typescript/src/PowerSearch/index.d.ts",
+      "default": "./lib/module/PowerSearch/index.js"
     },
     "./ProgressBar": {
       "react-native-astryx-source": "./src/ProgressBar/index.ts",
@@ -160,6 +360,11 @@
       "react-native-astryx-source": "./src/RadioList/index.ts",
       "types": "./lib/typescript/src/RadioList/index.d.ts",
       "default": "./lib/module/RadioList/index.js"
+    },
+    "./Resizable": {
+      "react-native-astryx-source": "./src/Resizable/index.ts",
+      "types": "./lib/typescript/src/Resizable/index.d.ts",
+      "default": "./lib/module/Resizable/index.js"
     },
     "./Section": {
       "react-native-astryx-source": "./src/Section/index.ts",
@@ -180,6 +385,16 @@
       "react-native-astryx-source": "./src/Selector/index.ts",
       "types": "./lib/typescript/src/Selector/index.d.ts",
       "default": "./lib/module/Selector/index.js"
+    },
+    "./SideNav": {
+      "react-native-astryx-source": "./src/SideNav/index.ts",
+      "types": "./lib/typescript/src/SideNav/index.d.ts",
+      "default": "./lib/module/SideNav/index.js"
+    },
+    "./SizeContext": {
+      "react-native-astryx-source": "./src/SizeContext/index.ts",
+      "types": "./lib/typescript/src/SizeContext/index.d.ts",
+      "default": "./lib/module/SizeContext/index.js"
     },
     "./Skeleton": {
       "react-native-astryx-source": "./src/Skeleton/index.ts",
@@ -241,6 +456,16 @@
       "types": "./lib/typescript/src/TextInput/index.d.ts",
       "default": "./lib/module/TextInput/index.js"
     },
+    "./Thumbnail": {
+      "react-native-astryx-source": "./src/Thumbnail/index.ts",
+      "types": "./lib/typescript/src/Thumbnail/index.d.ts",
+      "default": "./lib/module/Thumbnail/index.js"
+    },
+    "./TimeInput": {
+      "react-native-astryx-source": "./src/TimeInput/index.ts",
+      "types": "./lib/typescript/src/TimeInput/index.d.ts",
+      "default": "./lib/module/TimeInput/index.js"
+    },
     "./Timestamp": {
       "react-native-astryx-source": "./src/Timestamp/index.ts",
       "types": "./lib/typescript/src/Timestamp/index.d.ts",
@@ -256,6 +481,36 @@
       "types": "./lib/typescript/src/ToggleButton/index.d.ts",
       "default": "./lib/module/ToggleButton/index.js"
     },
+    "./Token": {
+      "react-native-astryx-source": "./src/Token/index.ts",
+      "types": "./lib/typescript/src/Token/index.d.ts",
+      "default": "./lib/module/Token/index.js"
+    },
+    "./Tokenizer": {
+      "react-native-astryx-source": "./src/Tokenizer/index.ts",
+      "types": "./lib/typescript/src/Tokenizer/index.d.ts",
+      "default": "./lib/module/Tokenizer/index.js"
+    },
+    "./Toolbar": {
+      "react-native-astryx-source": "./src/Toolbar/index.ts",
+      "types": "./lib/typescript/src/Toolbar/index.d.ts",
+      "default": "./lib/module/Toolbar/index.js"
+    },
+    "./Tooltip": {
+      "react-native-astryx-source": "./src/Tooltip/index.ts",
+      "types": "./lib/typescript/src/Tooltip/index.d.ts",
+      "default": "./lib/module/Tooltip/index.js"
+    },
+    "./TopNav": {
+      "react-native-astryx-source": "./src/TopNav/index.ts",
+      "types": "./lib/typescript/src/TopNav/index.d.ts",
+      "default": "./lib/module/TopNav/index.js"
+    },
+    "./TreeList": {
+      "react-native-astryx-source": "./src/TreeList/index.ts",
+      "types": "./lib/typescript/src/TreeList/index.d.ts",
+      "default": "./lib/module/TreeList/index.js"
+    },
     "./Typeahead": {
       "react-native-astryx-source": "./src/Typeahead/index.ts",
       "types": "./lib/typescript/src/Typeahead/index.d.ts",
@@ -270,6 +525,21 @@
       "react-native-astryx-source": "./src/VisuallyHidden/index.ts",
       "types": "./lib/typescript/src/VisuallyHidden/index.d.ts",
       "default": "./lib/module/VisuallyHidden/index.js"
+    },
+    "./hooks": {
+      "react-native-astryx-source": "./src/hooks/index.ts",
+      "types": "./lib/typescript/src/hooks/index.d.ts",
+      "default": "./lib/module/hooks/index.js"
+    },
+    "./i18n": {
+      "react-native-astryx-source": "./src/i18n/index.tsx",
+      "types": "./lib/typescript/src/i18n/index.d.ts",
+      "default": "./lib/module/i18n/index.js"
+    },
+    "./theme": {
+      "react-native-astryx-source": "./src/theme/index.ts",
+      "types": "./lib/typescript/src/theme/index.d.ts",
+      "default": "./lib/module/theme/index.js"
     },
     "./utils": {
       "react-native-astryx-source": "./src/utils/index.ts",
@@ -292,7 +562,8 @@
     "prepare": "bob build",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "sync": "node scripts/sync/check-drift.mjs"
+    "sync": "node scripts/sync/check-drift.mjs",
+    "test": "vitest run"
   },
   "keywords": [
     "react-native",
@@ -340,7 +611,8 @@
     "react-native": "0.81.5",
     "react-native-builder-bob": "^0.43.0",
     "turbo": "^2.9.16",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.11"
   },
   "peerDependencies": {
     "react": ">=19.0.0",
