@@ -1,0 +1,1 @@
+export { getComponentOverride } from './componentOverrides';

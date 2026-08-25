@@ -1,0 +1,400 @@
+{
+  "name": "react-native-astryx",
+  "version": "0.1.0",
+  "description": "A React Native port of the Astryx design system (facebook/astryx) — spec-synced, StyleX-powered, themeable.",
+  "main": "./lib/module/index.js",
+  "types": "./lib/typescript/src/index.d.ts",
+  "exports": {
+    ".": {
+      "react-native-astryx-source": "./src/index.tsx",
+      "types": "./lib/typescript/src/index.d.ts",
+      "default": "./lib/module/index.js"
+    },
+    "./theme": {
+      "react-native-astryx-source": "./src/theme/index.ts",
+      "types": "./lib/typescript/src/theme/index.d.ts",
+      "default": "./lib/module/theme/index.js"
+    },
+    "./package.json": "./package.json",
+    "./AspectRatio": {
+      "react-native-astryx-source": "./src/AspectRatio/index.ts",
+      "types": "./lib/typescript/src/AspectRatio/index.d.ts",
+      "default": "./lib/module/AspectRatio/index.js"
+    },
+    "./Avatar": {
+      "react-native-astryx-source": "./src/Avatar/index.ts",
+      "types": "./lib/typescript/src/Avatar/index.d.ts",
+      "default": "./lib/module/Avatar/index.js"
+    },
+    "./AvatarGroup": {
+      "react-native-astryx-source": "./src/AvatarGroup/index.ts",
+      "types": "./lib/typescript/src/AvatarGroup/index.d.ts",
+      "default": "./lib/module/AvatarGroup/index.js"
+    },
+    "./Badge": {
+      "react-native-astryx-source": "./src/Badge/index.ts",
+      "types": "./lib/typescript/src/Badge/index.d.ts",
+      "default": "./lib/module/Badge/index.js"
+    },
+    "./Banner": {
+      "react-native-astryx-source": "./src/Banner/index.ts",
+      "types": "./lib/typescript/src/Banner/index.d.ts",
+      "default": "./lib/module/Banner/index.js"
+    },
+    "./BottomSheet": {
+      "react-native-astryx-source": "./src/BottomSheet/index.ts",
+      "types": "./lib/typescript/src/BottomSheet/index.d.ts",
+      "default": "./lib/module/BottomSheet/index.js"
+    },
+    "./Breadcrumbs": {
+      "react-native-astryx-source": "./src/Breadcrumbs/index.ts",
+      "types": "./lib/typescript/src/Breadcrumbs/index.d.ts",
+      "default": "./lib/module/Breadcrumbs/index.js"
+    },
+    "./Button": {
+      "react-native-astryx-source": "./src/Button/index.ts",
+      "types": "./lib/typescript/src/Button/index.d.ts",
+      "default": "./lib/module/Button/index.js"
+    },
+    "./ButtonGroup": {
+      "react-native-astryx-source": "./src/ButtonGroup/index.ts",
+      "types": "./lib/typescript/src/ButtonGroup/index.d.ts",
+      "default": "./lib/module/ButtonGroup/index.js"
+    },
+    "./Calendar": {
+      "react-native-astryx-source": "./src/Calendar/index.ts",
+      "types": "./lib/typescript/src/Calendar/index.d.ts",
+      "default": "./lib/module/Calendar/index.js"
+    },
+    "./Card": {
+      "react-native-astryx-source": "./src/Card/index.ts",
+      "types": "./lib/typescript/src/Card/index.d.ts",
+      "default": "./lib/module/Card/index.js"
+    },
+    "./Center": {
+      "react-native-astryx-source": "./src/Center/index.ts",
+      "types": "./lib/typescript/src/Center/index.d.ts",
+      "default": "./lib/module/Center/index.js"
+    },
+    "./CheckboxInput": {
+      "react-native-astryx-source": "./src/CheckboxInput/index.ts",
+      "types": "./lib/typescript/src/CheckboxInput/index.d.ts",
+      "default": "./lib/module/CheckboxInput/index.js"
+    },
+    "./ClickableCard": {
+      "react-native-astryx-source": "./src/ClickableCard/index.ts",
+      "types": "./lib/typescript/src/ClickableCard/index.d.ts",
+      "default": "./lib/module/ClickableCard/index.js"
+    },
+    "./DateInput": {
+      "react-native-astryx-source": "./src/DateInput/index.ts",
+      "types": "./lib/typescript/src/DateInput/index.d.ts",
+      "default": "./lib/module/DateInput/index.js"
+    },
+    "./Dialog": {
+      "react-native-astryx-source": "./src/Dialog/index.ts",
+      "types": "./lib/typescript/src/Dialog/index.d.ts",
+      "default": "./lib/module/Dialog/index.js"
+    },
+    "./Divider": {
+      "react-native-astryx-source": "./src/Divider/index.ts",
+      "types": "./lib/typescript/src/Divider/index.d.ts",
+      "default": "./lib/module/Divider/index.js"
+    },
+    "./EmptyState": {
+      "react-native-astryx-source": "./src/EmptyState/index.ts",
+      "types": "./lib/typescript/src/EmptyState/index.d.ts",
+      "default": "./lib/module/EmptyState/index.js"
+    },
+    "./Field": {
+      "react-native-astryx-source": "./src/Field/index.ts",
+      "types": "./lib/typescript/src/Field/index.d.ts",
+      "default": "./lib/module/Field/index.js"
+    },
+    "./HStack": {
+      "react-native-astryx-source": "./src/HStack/index.ts",
+      "types": "./lib/typescript/src/HStack/index.d.ts",
+      "default": "./lib/module/HStack/index.js"
+    },
+    "./Heading": {
+      "react-native-astryx-source": "./src/Heading/index.ts",
+      "types": "./lib/typescript/src/Heading/index.d.ts",
+      "default": "./lib/module/Heading/index.js"
+    },
+    "./Icon": {
+      "react-native-astryx-source": "./src/Icon/index.ts",
+      "types": "./lib/typescript/src/Icon/index.d.ts",
+      "default": "./lib/module/Icon/index.js"
+    },
+    "./IconButton": {
+      "react-native-astryx-source": "./src/IconButton/index.ts",
+      "types": "./lib/typescript/src/IconButton/index.d.ts",
+      "default": "./lib/module/IconButton/index.js"
+    },
+    "./Kbd": {
+      "react-native-astryx-source": "./src/Kbd/index.ts",
+      "types": "./lib/typescript/src/Kbd/index.d.ts",
+      "default": "./lib/module/Kbd/index.js"
+    },
+    "./List": {
+      "react-native-astryx-source": "./src/List/index.ts",
+      "types": "./lib/typescript/src/List/index.d.ts",
+      "default": "./lib/module/List/index.js"
+    },
+    "./NumberInput": {
+      "react-native-astryx-source": "./src/NumberInput/index.ts",
+      "types": "./lib/typescript/src/NumberInput/index.d.ts",
+      "default": "./lib/module/NumberInput/index.js"
+    },
+    "./Pagination": {
+      "react-native-astryx-source": "./src/Pagination/index.ts",
+      "types": "./lib/typescript/src/Pagination/index.d.ts",
+      "default": "./lib/module/Pagination/index.js"
+    },
+    "./ProgressBar": {
+      "react-native-astryx-source": "./src/ProgressBar/index.ts",
+      "types": "./lib/typescript/src/ProgressBar/index.d.ts",
+      "default": "./lib/module/ProgressBar/index.js"
+    },
+    "./RadioList": {
+      "react-native-astryx-source": "./src/RadioList/index.ts",
+      "types": "./lib/typescript/src/RadioList/index.d.ts",
+      "default": "./lib/module/RadioList/index.js"
+    },
+    "./Section": {
+      "react-native-astryx-source": "./src/Section/index.ts",
+      "types": "./lib/typescript/src/Section/index.d.ts",
+      "default": "./lib/module/Section/index.js"
+    },
+    "./SegmentedControl": {
+      "react-native-astryx-source": "./src/SegmentedControl/index.ts",
+      "types": "./lib/typescript/src/SegmentedControl/index.d.ts",
+      "default": "./lib/module/SegmentedControl/index.js"
+    },
+    "./SelectableCard": {
+      "react-native-astryx-source": "./src/SelectableCard/index.ts",
+      "types": "./lib/typescript/src/SelectableCard/index.d.ts",
+      "default": "./lib/module/SelectableCard/index.js"
+    },
+    "./Selector": {
+      "react-native-astryx-source": "./src/Selector/index.ts",
+      "types": "./lib/typescript/src/Selector/index.d.ts",
+      "default": "./lib/module/Selector/index.js"
+    },
+    "./Skeleton": {
+      "react-native-astryx-source": "./src/Skeleton/index.ts",
+      "types": "./lib/typescript/src/Skeleton/index.d.ts",
+      "default": "./lib/module/Skeleton/index.js"
+    },
+    "./Slider": {
+      "react-native-astryx-source": "./src/Slider/index.ts",
+      "types": "./lib/typescript/src/Slider/index.d.ts",
+      "default": "./lib/module/Slider/index.js"
+    },
+    "./Spinner": {
+      "react-native-astryx-source": "./src/Spinner/index.ts",
+      "types": "./lib/typescript/src/Spinner/index.d.ts",
+      "default": "./lib/module/Spinner/index.js"
+    },
+    "./Stack": {
+      "react-native-astryx-source": "./src/Stack/index.ts",
+      "types": "./lib/typescript/src/Stack/index.d.ts",
+      "default": "./lib/module/Stack/index.js"
+    },
+    "./StatusDot": {
+      "react-native-astryx-source": "./src/StatusDot/index.ts",
+      "types": "./lib/typescript/src/StatusDot/index.d.ts",
+      "default": "./lib/module/StatusDot/index.js"
+    },
+    "./Stepper": {
+      "react-native-astryx-source": "./src/Stepper/index.ts",
+      "types": "./lib/typescript/src/Stepper/index.d.ts",
+      "default": "./lib/module/Stepper/index.js"
+    },
+    "./Switch": {
+      "react-native-astryx-source": "./src/Switch/index.ts",
+      "types": "./lib/typescript/src/Switch/index.d.ts",
+      "default": "./lib/module/Switch/index.js"
+    },
+    "./TabList": {
+      "react-native-astryx-source": "./src/TabList/index.ts",
+      "types": "./lib/typescript/src/TabList/index.d.ts",
+      "default": "./lib/module/TabList/index.js"
+    },
+    "./Table": {
+      "react-native-astryx-source": "./src/Table/index.ts",
+      "types": "./lib/typescript/src/Table/index.d.ts",
+      "default": "./lib/module/Table/index.js"
+    },
+    "./Text": {
+      "react-native-astryx-source": "./src/Text/index.ts",
+      "types": "./lib/typescript/src/Text/index.d.ts",
+      "default": "./lib/module/Text/index.js"
+    },
+    "./TextArea": {
+      "react-native-astryx-source": "./src/TextArea/index.ts",
+      "types": "./lib/typescript/src/TextArea/index.d.ts",
+      "default": "./lib/module/TextArea/index.js"
+    },
+    "./TextInput": {
+      "react-native-astryx-source": "./src/TextInput/index.ts",
+      "types": "./lib/typescript/src/TextInput/index.d.ts",
+      "default": "./lib/module/TextInput/index.js"
+    },
+    "./Timestamp": {
+      "react-native-astryx-source": "./src/Timestamp/index.ts",
+      "types": "./lib/typescript/src/Timestamp/index.d.ts",
+      "default": "./lib/module/Timestamp/index.js"
+    },
+    "./Toast": {
+      "react-native-astryx-source": "./src/Toast/index.ts",
+      "types": "./lib/typescript/src/Toast/index.d.ts",
+      "default": "./lib/module/Toast/index.js"
+    },
+    "./ToggleButton": {
+      "react-native-astryx-source": "./src/ToggleButton/index.ts",
+      "types": "./lib/typescript/src/ToggleButton/index.d.ts",
+      "default": "./lib/module/ToggleButton/index.js"
+    },
+    "./Typeahead": {
+      "react-native-astryx-source": "./src/Typeahead/index.ts",
+      "types": "./lib/typescript/src/Typeahead/index.d.ts",
+      "default": "./lib/module/Typeahead/index.js"
+    },
+    "./VStack": {
+      "react-native-astryx-source": "./src/VStack/index.ts",
+      "types": "./lib/typescript/src/VStack/index.d.ts",
+      "default": "./lib/module/VStack/index.js"
+    },
+    "./VisuallyHidden": {
+      "react-native-astryx-source": "./src/VisuallyHidden/index.ts",
+      "types": "./lib/typescript/src/VisuallyHidden/index.d.ts",
+      "default": "./lib/module/VisuallyHidden/index.js"
+    },
+    "./utils": {
+      "react-native-astryx-source": "./src/utils/index.ts",
+      "types": "./lib/typescript/src/utils/index.d.ts",
+      "default": "./lib/module/utils/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "*.podspec",
+    "react-native.config.js",
+    "!ios/build",
+    "!android/build",
+    "!android/gradle",
+    "!android/gradlew",
+    "!android/gradlew.bat",
+    "!android/local.properties",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__",
+    "!**/.*"
+  ],
+  "scripts": {
+    "example": "yarn workspace react-native-astryx-example",
+    "clean": "del-cli lib",
+    "prepare": "bob build",
+    "typecheck": "tsc",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "sync": "node scripts/sync/check-drift.mjs"
+  },
+  "keywords": [
+    "react-native",
+    "astryx",
+    "design-system",
+    "ui",
+    "components",
+    "stylex",
+    "react-strict-dom",
+    "themeable",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAM-AEL/react-native-astryx.git"
+  },
+  "author": "SAM-AEL <samsolomonofficial@gmail.com> (https://github.com/SAM-AEL)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAM-AEL/react-native-astryx/issues"
+  },
+  "homepage": "https://github.com/SAM-AEL/react-native-astryx#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.1.0",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "@react-native/babel-preset": "0.85.0",
+    "@react-native/eslint-config": "0.85.0",
+    "@stylexjs/babel-plugin": "^0.19.0",
+    "@stylexjs/eslint-plugin": "^0.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19",
+    "del-cli": "^7.0.0",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-ft-flow": "^3.0.11",
+    "eslint-plugin-prettier": "^5.5.6",
+    "prettier": "^3.8.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-builder-bob": "^0.43.0",
+    "turbo": "^2.9.16",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "workspaces": [
+    "example"
+  ],
+  "packageManager": "yarn@4.11.0",
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      [
+        "module",
+        {
+          "esm": true,
+          "configFile": "./babel.config.js"
+        }
+      ],
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "create-react-native-library": {
+    "type": "library",
+    "languages": "js",
+    "tools": [
+      "eslint"
+    ],
+    "version": "0.63.0"
+  },
+  "dependencies": {
+    "react-strict-dom": "^0.0.55"
+  }
+}

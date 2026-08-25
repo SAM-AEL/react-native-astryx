@@ -1,0 +1,66 @@
+Third-party software notices
+============================
+
+This project (react-native-astryx) includes an original React Native
+implementation of components and theming whose design system, API surface,
+token vocabulary, and theme schema are derived from the Astryx design
+system.
+
+1. Astryx
+---------
+
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+Source: https://github.com/facebook/astryx
+License: MIT
+
+Astryx is the upstream open-source design system by Meta. The component
+names, prop conventions, semantic token names (--color-*, --spacing-*,
+--radius-*, --text-*), and the defineTheme() configuration schema used in
+this repository originate from Astryx and are reused under the terms of
+its MIT license. Full credit for the design system belongs to Meta and the
+Astryx contributors.
+
+2. React Strict DOM
+-------------------
+
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+Source: https://github.com/facebook/react-strict-dom
+License: MIT
+
+Used as the rendering and styling runtime for native elements.
+
+3. StyleX
+---------
+
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+Source: https://github.com/facebook/stylex
+License: MIT
+
+Used (via react-strict-dom) as the styling engine.
+
+----------------------------------------------------------------------------
+
+All third-party components above are distributed under the MIT License:
+
+  Permission is hereby granted, free of charge, to any person obtaining a
+  copy of this software and associated documentation files (the "Software"),
+  to deal in the Software without restriction, including without limitation
+  the rights to use, copy, modify, merge, publish, distribute, sublicense,
+  and/or sell copies of the Software, and to permit persons to whom the
+  Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included
+  in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+  OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+This project itself is licensed under the MIT License — see the LICENSE file.
