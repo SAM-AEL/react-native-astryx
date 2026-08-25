@@ -280,17 +280,7 @@
   "files": [
     "src",
     "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "react-native.config.js",
-    "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
+    "NOTICE",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
@@ -353,8 +343,8 @@
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": ">=19.0.0",
+    "react-native": ">=0.79.5"
   },
   "workspaces": [
     "example"
@@ -396,5 +386,6 @@
   },
   "dependencies": {
     "react-strict-dom": "^0.0.55"
-  }
+  },
+  "sideEffects": false
 }
